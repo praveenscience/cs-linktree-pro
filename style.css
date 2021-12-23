@@ -22,3 +22,16 @@ h3.list-group-item {
   margin: 0;
   padding: 10px 15px 7px;
 }
+.list-group-item .icon-wrapper {
+  display: inline-block;
+  width: 35px;
+  margin-right: 5px;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.list-group-item .icon-wrapper i {
+  font-size: 1.5em;
+}
