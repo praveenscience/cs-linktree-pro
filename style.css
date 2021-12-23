@@ -35,3 +35,38 @@ h3.list-group-item {
 .list-group-item .icon-wrapper i {
   font-size: 1.5em;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+footer ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 10px 5px;
+}
+footer ul li a {
+  color: #fff;
+  border: 1px solid #ccc;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
